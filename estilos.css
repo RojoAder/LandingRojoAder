@@ -1,0 +1,45 @@
+#portada{
+    margin: auto;
+    background: cornflowerblue;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.contenedor{
+}
+
+#hobbies{
+    margin: auto;
+    background: coral;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+    
+}
+
+ul{
+    list-style-position: inside;
+}
+
+ol{
+    list-style-position: inside;
+}
+
+#series{
+    margin: auto;
+    background: salmon;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#contacto{
+    margin: auto;
+    background: bisque;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+}

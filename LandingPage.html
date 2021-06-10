@@ -3,57 +3,79 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Landing Page Ader Rojo</title>
+    <link rel="stylesheet" href="estilos.css" />
   </head>
   <main>
     <body>
+      <div class="contenedor">
         <div id="portada">
-            <h1>Portada</h1>
-            <img src="ader.jpeg" alt="ader">
-            <p>Mi nombre es Ader Rojo y esta es mi Landing Page</p>
+          <h1>Portada</h1>
+          <img src="ader.jpeg" alt="ader" />
+          <p>Mi nombre es Ader Rojo y esta es mi Landing Page</p>
         </div>
+      </div>
+      <div>
         <div id="hobbies">
-            <h1>Hobbies</h1>
-            <ul>
-                <li>Jugar Videojuegos</li>
-                <li>Tocar Guitarra</li>
-            </ul>
+          <h1>Hobbies</h1>
+          <ul>
+            <li>Jugar Videojuegos</li>
+            <li>Tocar Guitarra</li>
+          </ul>
         </div>
-        <div id="Series">
-            <h1>Series y pel&iacute;culas favoritas</h1>
-            <h2>Series</h2>
-            <ol>
-                <li>Skam France</li>
-                <li>Doctor House</li>
-            </ol>
-            <h2>Pel&iacute;culas</h2>
-            <ol>
-                <li>The Thing(1982)</li>
-                <li>Scott Pilgrim vs The World</li>
-                <li>Annihilation</li>
-                <li>La Vida Secreta de Walter Mitty</li>
-            </ol>
+      </div>
+      <div class="contenedor">
+        <div id="series">
+          <h1>Series y pel&iacute;culas favoritas</h1>
+          <h2>Series</h2>
+          <ol>
+            <li>Skam France</li>
+            <li>Doctor House</li>
+          </ol>
+          <h2>Pel&iacute;culas</h2>
+          <ol>
+            <li>The Thing(1982)</li>
+            <li>Scott Pilgrim vs The World</li>
+            <li>Annihilation</li>
+            <li>La Vida Secreta de Walter Mitty</li>
+          </ol>
         </div>
+      </div>
+      <div class="contenedor">
         <div id="contacto">
-            <h1>Cont&aacute;ctame</h1>
-            <form enctype="text/plain" method="POST" action="mailto:ader.rojo205566@potros.itson.edu.mx">
-                <div>
-                    <label for="correo">Correo</label>
-                    <input type="email" name="correo" id="correo"/>
-                </div>
-                <div>
-                    <label for="asunto">Asunto</label>
-                    <input type="text" name="asunto" id="asunto">
-                </div>
-                <div>
-                    <label for="mensaje">Mensaje</label>
-                    <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea>
-                </div>
-                <div>
-                    <input type="submit">
-                    <input type="reset">
-                </div>
-            </form>
+          <h1>Cont&aacute;ctame</h1>
+          <form
+            enctype="text/plain"
+            method="POST"
+            action="mailto:ader.rojo205566@potros.itson.edu.mx"
+          >
+            <div>
+              <label for="correo">Correo</label>
+              <input type="email" name="correo" id="correo" />
+            </div>
+            <br/>
+            <div>
+              <label for="asunto">Asunto</label>
+              <input type="text" name="asunto" id="asunto" />
+            </div>
+            <br/>
+            <div>
+              <label for="mensaje">Mensaje</label>
+              <textarea
+                id="mensaje"
+                name="mensaje"
+                rows="4"
+                cols="50"
+              ></textarea>
+            </div>
+            <br/>
+            <div>
+              <input type="submit" />
+              <input type="reset" />
+            </div>
+            <br/>
+          </form>
         </div>
+      </div>
     </body>
   </main>
 </html>
